@@ -1,3 +1,5 @@
+import logo from "../assets/ms-logo-2.png"
+
 export default function Header() {
   return (
     <header className="site-header">
@@ -5,7 +7,7 @@ export default function Header() {
         <div className="content-width site-header__bar-inner">
           <img
             className="site-header__logo"
-            src="/images/ms-logo-2.png"
+            src={logo}
             alt="Site logo"
           />
         </div>
