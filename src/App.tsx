@@ -34,7 +34,7 @@ export default function App() {
       <main>
         <Section
           text={<span style={{ fontSize: "22px" }}>{text1}</span>}
-          imageSrc="/images/image-1.jpg"
+          imageSrc={`${import.meta.env.BASE_URL}images/image-1.jpg`}
           imageAlt="Hanna-Kaisa Kalmukoski & Jaakko Syrjäpalo"
           align="left"
         />
@@ -43,7 +43,7 @@ export default function App() {
 
         <Section
           text={<span style={{ fontStyle: "italic", fontSize: "22px" }}>{text2}</span>}
-          imageSrc="/images/jaakko.png"
+          imageSrc={`${import.meta.env.BASE_URL}images/jaakko.png`}
           imageAlt="Jaakko"
           align="right"
         />
